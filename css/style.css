@@ -1,0 +1,195 @@
+body{
+  background: url(../1679614707_bogatyr-club-p-zvezdnii-fon-chernii-pinterest-39.jpg);
+}
+.header{
+  width: 100%;
+  height: 12%;
+  background-color: #0C0C0C;
+  position: fixed;
+  margin-top: -350px;
+  z-index: 999;
+  /* position: absolute; */
+}
+.border{
+  border: .1px solid #fff;
+  width: 153px;
+  height: 148px;
+  border-radius: 50%;
+  margin: 237px 0px 0px 950px;
+}
+.sun{
+  margin: -141px 0px 0px 961px;
+  animation: sun 60s infinite linear   ;
+}
+@keyframes sun{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.border-2{
+  border: .1px solid #fff;
+  width: 202px;
+  height: 191px;
+  border-radius: 50%;
+  margin: -184px 0px 0px 927px;
+}
+.mercury{
+  margin: -98px 0px 0px 942px;
+  animation: mercury 4s infinite linear;
+  transform-origin: 85px 0px;
+}
+@keyframes mercury{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.venus{
+  margin: -96px 1px 0px -50px;
+  animation: venus 4.2s infinite linear;
+  transform-origin:110px 0px ;
+}
+@keyframes venus{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.sun-story{
+  margin: 250px 0px 0px 880px;
+}
+.border-3{
+  border: .1px solid #fff;
+  width: 258px;
+  height: 241px;
+  border-radius: 50%;
+  margin: -232px 0px 0px 901px;
+}
+.earth{
+  margin: -123px 0px 0px 890px;
+  animation: earth 4.4s infinite linear ;
+  transform-origin: 140px 0px;
+}
+@keyframes earth{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.border-4{
+  border: .1px solid #fff;
+  width: 309px;
+  height: 289px;
+  border-radius: 50%;
+  margin: -282px 0px 0px 875px;
+}
+.mars{
+  margin: -145px 0px 0px 870px;
+  animation: mars 4.6s infinite linear ;
+  transform-origin: 161px 0px;
+}
+@keyframes mars{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.border-5{
+  border: .1px solid #fff;
+  width: 380px;
+  height: 357px;
+  border-radius: 50%;
+  margin: -338px 0px 0px 840px;
+}
+.jowish{
+  margin: -179px 0px 0px 822px;
+  animation: mars 4.8s infinite linear ;
+  transform-origin: 210px 0px;
+}
+.system{
+  margin: 0px 0px 0px 0px;
+}
+.border-6{
+  width:481px ;
+  height:449px ;
+  border: .1px solid #fff;
+  border-radius: 50%;
+  margin: -418px 0px 0px 790px;
+}
+.saturn{
+  animation: saturn 5s infinite linear ;
+  transform-origin: 260px 0px;
+  margin: -224px 0px 0px 771px;
+}
+@keyframes saturn{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.system{
+  margin: 350px 0px 0px 0px;
+}
+.border-7{
+  width:570px ;
+  height:534px ;
+  border: .1px solid #fff;
+  border-radius: 50%;
+  margin: -505px 0px 0px 746px;
+}
+.uran{
+  animation: uran 5.2s infinite linear ;
+  transform-origin: 298px 0px;
+  margin: -268px 0px 0px 731px;
+  border-radius: 50%;
+  box-shadow:0px 0px 20px  #4f4f4f;
+}
+@keyframes uran{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.border-8{
+  width:669px ;
+  height:625px ;
+  border: .1px solid #fff;
+  border-radius: 50%;
+  margin: -595px 0px 0px 696px;
+}
+.neptune{
+  animation: neptune 5.4s infinite linear ;
+  transform-origin: 342px 0px;
+  margin: -312px 0px 0px 691px;
+  box-shadow:0px 0px 20px  #4f4f4f;
+  border-radius: 50%;
+}
+@keyframes neptune{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
