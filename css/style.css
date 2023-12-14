@@ -164,7 +164,7 @@ body{
   }
 }
 .firsttext{
-  font-size: 50px;
+  font-size: 42px;
   color: #FFD832;
   background-image: linear-gradient(#FFD832 , #F46D03) ;
   -webkit-background-clip: text;
@@ -172,7 +172,7 @@ body{
   font-family: 'Montserrat' , serif ;
   font-weight: bold;
   font-style: italic;
-  margin: -525px 0px 0px 260px;
+  margin: -525px 0px -6px 250px;
 }
 @font-face {
   font-family: "Montserrat";
@@ -182,27 +182,37 @@ body{
 }
 .textmiddle{
   color: #fff;
-  line-height: 20px;
+  line-height: 28px;
   margin: 10px 0px 0px 105px;
-  font-size: 19px;
+  font-size: 16px;
 }
 .button{
   text-align: center;
   font-size: 40px;
-  width: 160px;
-  height: 44px;
+  width: 140px;
+  height: 40px;
   border-radius: 50px;
   background: linear-gradient(#FFD832 , #F46D03 60%);
   font-family: 'Montserrat' , serif ;
   font-weight: bold;
   font-style: italic;
   margin: 9px 0px 0px 218px;
-  box-shadow: 0px 2px 22px #F46D03 , 0px -4px 6px #fff  ; 
+  /* box-shadow: 0px 2px 22px #F46D03 , 0px -4px 6px #fff  ;  */
+}
+.buttonshadow{
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  margin: -20px 0px 0px 0px;
+  box-shadow: 0px 2px 22px #F46D03 , 0px -4px 6px #fff  ;
+  z-index: -999;
+  opacity: 80%;
 }
 .VIEW{
   position: absolute;
-  font-size: 38px;
-  margin: 12px 0px 0px 240px;
+  font-size: 32px;
+  margin: 12px 0px 0px 238px;
   font-family: 'Montserrat-SemiBold' , serif ;
   font-weight: bold;
   font-style: italic;
@@ -216,15 +226,190 @@ body{
     url("/fonts/Montserrat-SemiBold.woff2") format("woff2") ,
 }
 .buttonall{
-  margin-top: 12px;
-  margin-left: 42px ;
+  margin-top: 8px;
+  margin-left: 34px ;
 }
 .textmiddle{
-  line-height: 23px;
+  line-height: 28px;
   font-family: 'Montserrat' , serif ;
   font-weight: bold;
   font-style: italic;
 }
+.spaceimage { 
+  margin: 22px 0px 0px 80px;
+}
+.spaceimageshadow{
+  box-shadow: 0px 2px 20px #fff;
+}
+.home-header-text{
+  position: absolute;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Montserrat' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  margin: -54px 0px 0px 250px;
+}
+.home-header-text::before{
+  content:'' ;
+  position: absolute;
+  top: -5px;
+  left: -8px;
+  width: calc(100% + 20px);
+  height:  calc(100% + 10px);
+  border-radius: 50%;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity .5s ease-in-out ;
+}
+.header-text{
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.home-header-text:hover::before{
+  opacity: 1;
+}
+@keyframes home{
+  100%{
+    
+  }
+}
+.planets-header-text{
+  position: absolute;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Montserrat' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  margin: -54px 0px 0px 450px;
+  
+}
+.planets-header-text::before{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% + 14px);
+  height: calc(100% + 12px);
+  border-radius: 50%;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+.planets-header-text:hover::before{
+  opacity: 1;
+}
+.about-header-text{
+  position: absolute;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Montserrat' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  margin: -54px 0px 0px 650px;
+}
+.about-header-text::before{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% + 14px);
+  height: calc(100% + 12px);
+  border-radius: 50%;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+.about-header-text:hover::before{
+  opacity: 1;
+}
+.contacts-header-text{
+  position: absolute;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Montserrat' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  margin: -54px 0px 0px 850px;
+}
+.contacts-header-text::before{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% + 14px);
+  height: calc(100% + 12px);
+  border-radius: 50%;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+.contacts-header-text:hover:before{
+  opacity: 1;
+}
+.telephone{
+  position: absolute;
+  margin: -65px 0px 0px 800px;
+  width: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  background:linear-gradient(#FFD832 , #F46D03) ;
+}
+.language{
+  position: absolute;
+  color: #fff;
+  width: 50px;
+  height: 24px;
+  font-size: 18px;
+  font-family: 'Montserrat-SemiBold' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  margin: -56px 0px 0px 1050px;
+  /* background: linear-gradient(#FFD832 , #F46D03); */
+  /* background: #fff; */
+}
+.world{
+  position: absolute;
+  margin: -65px 0px 0px 1002px;
+  width: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 90%;
+}
+.worldlanguage{
+  margin-left: 70px;
+}
+.login-header-text{
+  white-space: nowrap;
+  position: absolute;
+  font-size: 18px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Montserrat-SemiBold' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  margin: -54px 0px 0px 1220px;
+}
+.leftsideheader{
+  margin: 0px 0px 0px 30px;
+}
+.centersideheader{
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
 
 
 
