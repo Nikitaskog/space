@@ -1,17 +1,12 @@
-html , body {
-  scroll-behavior: smooth;
-  scroll-snap-type:y mandatory;
-  transition: scroll-snap-type 5s  easy;
-}
 body{
-  background: url(../1679614707_bogatyr-club-p-zvezdnii-fon-chernii-pinterest-39.jpg);
+  background: #000;
 }
 .header{
   width: 100%;
-  height: 15%;
+  height: 13%;
   background-color: #0C0C0C;
   position: fixed;
-  margin-top: -350px;
+  /* margin-top: -350px; */
   z-index: 999;
   /* position: absolute; */
 }
@@ -190,9 +185,6 @@ body{
   line-height: 28px;
   margin: 10px 0px 0px 105px;
   font-size: 16px;
-  font-family: 'Montserrat-SemiBold' , serif ;
-  font-weight: bold;
-  font-style: italic;
 }
 .button{
   text-align: center;
@@ -244,8 +236,7 @@ body{
   font-style: italic;
 }
 .spaceimage { 
-  position: absolute;
-  margin: 26px 0px 0px 80px;
+  margin: 7px 0px 0px 80px;
 }
 .spaceimageshadow{
   box-shadow: 0px 2px 20px #fff;
@@ -275,8 +266,9 @@ body{
 .header-text{
   position: relative;
   display: inline-block;
-  margin-top: 112px;
+  margin-top: 10px;
   margin-left: 20px;
+  
 }
 .home-header-text:hover::before{
   opacity: 1;
@@ -412,220 +404,86 @@ body{
 .centersideheader{
   margin-left: 10px;
 }
-.astronauts{
+.header-text{
   position: absolute;
+  margin: 10px 0px 0px 0px;
 }
-.website2img{
+.square{
   position: absolute;
-  margin: 92px 0px 0px 0px;
-  height: 700px;
-}
-.website2{
-  margin: -70px;
-}
-.carefully{
-  position: absolute;
-  font-size: 20px;
-  position: absolute;
-  color: #fff;
-  line-height: 22px;
-  font-family: 'Montserrat' , serif ;
-  font-weight: bold;
-  font-style: italic;
-  margin: 140px 0px 0px 1020px; 
-  background: linear-gradient(  #3b4efa 35% ,  #030DF4 65% );
-  padding: 14px;
-  border-radius: 20px;
-  letter-spacing: 1px;
-}
-.medium-text{
-  position: absolute ;
-  margin: -20px 0px 0px 0px;
-}
-.website3img{
-  margin-top: 600px;
-}
-.login-header-text:active{
-  color: #FFD832;
-}
-.lunar{
-  margin: -810px 0px 0px 940px;
-}
-.lunar2{
-  margin: -480px 0px 0px 940px;
-}
-.what{
-  z-index: 2;
-  position: absolute;
-  font-size: 28px;
-  color: #F46D03;
-  margin: -832px 0px 0px 72px;
-  font-family: 'Montserrat-SemiBold' , serif ;
-  font-weight: bold;
-  font-style: italic;
-}
-.backgroundwhat{
-  z-index: 1;
-  position: absolute;
-  width: 380px;
-  height: 49px;
-  background-color: #181818;
-  margin: -840px 0px 0px 50px;
-  border-radius: 30px;
-  box-shadow: 0px -4px 4px #F46D03; 
-}
-.whatall{
-  margin: 20px 0px 0px 34px;
-}
-.explanation{
-  font-family: 'Montserrat' , serif ;
-  font-weight: bold;
-  font-style: italic;
-  z-index: 2;
-  position: absolute;
-  font-size: 24px;
-  color: #fff;
-  width: 750px;
-  margin: -766px 0px 0px 50px;
-}
-.backgroundwhat{
-  z-index: 1;
-  position: absolute;
-  width: 380px;
-  height: 49px;
-  background-color: #181818;
-  margin: -840px 0px 0px 50px;
-  border-radius: 30px;
-  box-shadow: 0px -4px 4px #F46D03; 
-}
-.backgroundexplanation{
-  z-index: 1;
-  position: absolute;
-  width: 782px;
-  height: 226px;
-  background-color: #0A0909;
-  margin: -780px 0px 0px 27px;
-  border-radius: 50px;
-  box-shadow: 0px -4px 4px #fefdfd; 
-
-}
-.explanationall{
-  position: absolute;
-  margin: 4px 0px 0px 10px;
-}
-.whatandexplanationall{
-  margin: 38px 0px 0px 44px;
-}
-.whatdoes{
-  z-index: 2;
-  position: absolute;
-  font-size: 28px;
-  color: #F46D03;
-  margin: -480px 0px 0px 72px;
-  font-family: 'Montserrat-SemiBold' , serif ;
-  font-weight: bold;
-  font-style: italic;
-}
-.backgroundwhatdoes{
-  z-index: 1;
-  position: absolute;
-  width: 434px;
-  height: 49px;
-  background-color: #181818;
-  margin: -489px 0px 0px 50px;
-  border-radius: 30px;
-  box-shadow: 0px -4px 4px #F46D03; 
-}
-.whatdoesall{
-  /* position: absolute; */
-  margin: 40px 0px 0px 62px;
-}
-.infowhatdoes{
-  font-family: 'Montserrat' , serif ;
-  font-weight: bold;
-  font-style: italic;
-  z-index: 2;
-  position: absolute;
-  font-size: 24px;
-  color: #fff;
-  width: 750px;
-  margin: -400px 0px 0px 90px;
-}
-.backgroundinfowhatdoes{
-  z-index: 1;
-  position: absolute;
-  width: 782px;
-  height: 170px;
-  background-color: #0A0909;
-  margin: -420px 0px 0px 68px;
-  border-radius: 50px;
-  box-shadow: 0px -4px 4px #fefdfd; 
-}
-.infowhatdoesall{
-  position: absolute;
-  margin-top: -4px;
-}
-.whatdoesandinfowhatdoes{
-  margin-top: 50px;
-}
-.backgroundfooter{
-  position: absolute;
-  width: 100%;
-  height: 200px;
-  background-color:#100f0f ;
-  margin: -170px 0px 0px 0px;
-  /* box-shadow: 0px -4px 40px #ed6300; */
-}
-.backgroundfooteropacity{
-  position: absolute;
-  width: 100%;
+  width: 500px;
   height: 300px;
-  background-color:#100f0f ;
-  margin: -170px 0px 0px 0px;
-  box-shadow: 0px -4px 4px #ed6300;
-  opacity: 50%;
+  border: 1px solid #fcfcfc;
+  background: linear-gradient(#FFD832 , #F46D03);
+  border-radius: 40px;
+  margin: 262px 0px 0px 483px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.inputfirst{
+  font-size: 16px;
+  width: 220px;
+  height: 30px;
+  margin: 30px 0px 0px 140px;
+  background: #f1f1f1;
+  font-family: 'Montserrat' , serif ;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.label{
+  font-size: 18px;
+  position: absolute;
+  color: #0b0a0a;
+  margin: 35px 0px 0px 36px;
+  font-family: 'Montserrat-SemiBold' , serif ;
+  font-weight: bold;
+}
+input:focus{
+  border: 1px solid #F46D03;
+}
+.allusername{
+  margin: 46px 0px 0px 10px;
+}
+.login{
+  position: absolute;
+  font-size: 22px;
+  color: #222121;
+  margin: 28px 0px 0px 200px;
+  font-family: 'Montserrat-SemiBold' , serif ;
+  font-weight: bold;
+}
+.inputsecont{
+  font-size: 26px;
+  width: 220px;
+  height: 30px;
+  margin: 30px 0px 0px 140px;
+  background: #f1f1f1;
+  font-family: 'Montserrat' , serif ;
+  font-weight: bold;
+  border-radius:20px;
+}
+.passwort{
+  font-size: 18px;
+  position: absolute;
+  color: #0b0a0a;
+  margin: 34px 0px 0px 40px;
+  font-family: 'Montserrat-SemiBold' , serif ;
+  font-weight: bold;
+}
+.allpasswort{
+  margin: 10px 0px 0px 10px;
+}
+button{
+  font-size: 20px;
+color: #f1f1f1;
+width: 120px;
+height: 34px;
+white-space: nowrap;
+background: #fe4747;
+border-radius: 20px;
+font-family: 'Montserrat' , sans-serif ;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 20px 0px 0px 179px;
+}
+.alltextinsquare{
+  margin: 52px 0px 0px 0px ;
+}
 
