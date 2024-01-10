@@ -248,7 +248,7 @@ body{
   font-family: 'Montserrat' , serif ;
   font-weight: bold;
   font-style: italic;
-  margin: -54px 0px 0px 250px;
+  margin: -56px 0px 0px 272px;
 }
 .home-header-text::before{
   content:'' ;
@@ -285,7 +285,7 @@ body{
   font-family: 'Montserrat' , serif ;
   font-weight: bold;
   font-style: italic;
-  margin: -54px 0px 0px 450px;
+  margin: -56px 0px 0px 474px;
   
 }
 .planets-header-text::before{
@@ -311,7 +311,7 @@ body{
   font-family: 'Montserrat' , serif ;
   font-weight: bold;
   font-style: italic;
-  margin: -54px 0px 0px 650px;
+  margin: -55px 0px 0px 675px;
 }
 .about-header-text::before{
   content: '';
@@ -336,7 +336,7 @@ body{
   font-family: 'Montserrat' , serif ;
   font-weight: bold;
   font-style: italic;
-  margin: -54px 0px 0px 850px;
+  margin: -56px 0px 0px 876px;
 }
 .contacts-header-text::before{
   content: '';
@@ -356,7 +356,7 @@ body{
 }
 .telephone{
   position: absolute;
-  margin: -65px 0px 0px 800px;
+  margin: -66px 0px 0px 825px;
   width: 30px;
   padding: 5px;
   border-radius: 50%;
@@ -371,13 +371,13 @@ body{
   font-family: 'Montserrat-SemiBold' , serif ;
   font-weight: bold;
   font-style: italic;
-  margin: -56px 0px 0px 1050px;
+  margin: -56px 0px 0px 1078px;
   /* background: linear-gradient(#FFD832 , #F46D03); */
   /* background: #fff; */
 }
 .world{
   position: absolute;
-  margin: -65px 0px 0px 1002px;
+  margin: -67px 0px 0px 1030px;
   width: 30px;
   padding: 5px;
   border-radius: 50%;
@@ -396,7 +396,7 @@ body{
   font-family: 'Montserrat-SemiBold' , serif ;
   font-weight: bold;
   font-style: italic;
-  margin: -54px 0px 0px 1220px;
+  margin: -56px 0px 0px 1250px;
 }
 .leftsideheader{
   margin: 0px 0px 0px 30px;
@@ -486,4 +486,18 @@ font-family: 'Montserrat' , sans-serif ;
 .alltextinsquare{
   margin: 52px 0px 0px 0px ;
 }
+::-moz-selection{
+  color: #f8f8fa;
+  background-color: #fb9953;
+  opacity:  20%;
+}
+::selection{
+  color: #fdfdfe;
+  background-color: #fb9953;
+  opacity: 20%;
+}
+.login-header-text:active{
+  color:#FFD832 ;
+}
+
 

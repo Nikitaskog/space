@@ -2,6 +2,17 @@ html , body {
   scroll-behavior: smooth;
   scroll-snap-type:y mandatory;
   transition: scroll-snap-type 5s  easy;
+
+}
+::-moz-selection{
+  color: #f8f8fa;
+  background-color: #fb9953;
+  opacity:  20%;
+}
+::selection{
+  color: #fdfdfe;
+  background-color: #fb9953;
+  opacity: 20%;
 }
 body{
   background: url(../1679614707_bogatyr-club-p-zvezdnii-fon-chernii-pinterest-39.jpg);
@@ -424,6 +435,8 @@ body{
   margin: -70px;
 }
 .carefully{
+  z-index: 2;
+  text-shadow:0px 3px 7px #0c0b0b;
   position: absolute;
   font-size: 20px;
   position: absolute;
@@ -437,6 +450,19 @@ body{
   padding: 14px;
   border-radius: 20px;
   letter-spacing: 1px;
+  /* box-shadow: 0px -4px 7px #fff; */
+}
+.carefullyshadow{
+  z-index: 1;
+  width: 460px;
+  height: 40px;
+  position: absolute;
+  margin: 140px 0px 0px 1020px; 
+  padding: 14px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  box-shadow: 0px -4px 7px #fff , 0px 2px 22px #030DF4;
+  opacity: 50%;
 }
 .medium-text{
   position: absolute ;
@@ -446,7 +472,7 @@ body{
   margin-top: 600px;
 }
 .login-header-text:active{
-  color: #FFD832;
+  color: #f4da68;
 }
 .lunar{
   margin: -810px 0px 0px 940px;
@@ -569,22 +595,152 @@ body{
   margin-top: 50px;
 }
 .backgroundfooter{
+  z-index: 0;
   position: absolute;
   width: 100%;
-  height: 200px;
-  background-color:#100f0f ;
-  margin: -170px 0px 0px 0px;
+  height: 300px;
+  background-color:#0c0b0b ;
+  margin: -150px 0px 0px 0px;
   /* box-shadow: 0px -4px 40px #ed6300; */
 }
 .backgroundfooteropacity{
   position: absolute;
   width: 100%;
   height: 300px;
-  background-color:#100f0f ;
-  margin: -170px 0px 0px 0px;
+  /* background-color:#100f0f ; */
+  margin: -150px 0px 0px 0px;
   box-shadow: 0px -4px 4px #ed6300;
   opacity: 50%;
 }
+.contactsbackground{
+  background-color: #181616;
+  font-size: 15px;
+  width: 120px;
+  position: absolute;
+  color: #fefdfd;
+  line-height: 20px;
+  font-family: 'Montserrat' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  margin: -31px 0px 0px 838px;
+  opacity: 0 ;
+  transition: opacity .7s ease ;
+}
+.contactsbackground:hover{
+  opacity: 1;
+}
+.hr1{
+  position: absolute;
+  width: 1450px;
+  height: .2px;
+  z-index: 2;
+  background-color: #fefdfd;
+  opacity: 95%;
+}
+.uk{
+  margin: 0px 0px 0px 0px;
+  position: absolute;
+  z-index: 2;
+  color: aliceblue;
+  margin: 0px 0px 0px 0px;
+}
+.privacy{
+  position: absolute;
+  color: #fefdfd;
+  font-size: 16px;
+  font-family: 'Montserrat-SemiBold' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  z-index: 2;
+  margin-left: 50px;
+  margin-top: 34px;
+  letter-spacing: 1px;
+}
+.privatyexplanation{
+  position: absolute;
+  font-size: 15px;
+  /* width: 850px;
+  height: 42px; */
+  line-height: 21px;
+  color: #fefdfd;
+  font-family: 'Montserrat' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  z-index: 2;
+  margin-left: 50px;
+  margin-top: 58px;
+}
+.inctext{
+  position: absolute;
+  font-size: 15px;
+  word-spacing: 5px;
+  color: #fefdfd;
+  font-family: 'Montserrat' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  z-index: 2;
+  margin-left: 830px;
+  margin-top: 66px;
+}
+.tellus{
+  position: absolute;
+  font-size: 15px;
+  word-spacing: 5px;
+  color: #fefdfd;
+  font-family: 'Montserrat' , serif ;
+  font-weight: bold;
+  font-style: italic;
+  z-index: 2;
+  margin-left: 1050px;
+  margin-top: 66px;
+  transition: border-bottom 10s inherit;
+  text-underline-offset: .5;
+}
+.textfooter2{
+  margin-left: 38px;
+}
+.tellus:hover{
+  border-bottom: 1px solid #fff;
+  /* color: #f8f8fa; */
+}
+.tellus:active{
+  color: #f8df6f;
+}
+.spacemainfooter{
+  margin-left: 90px;
+  margin-top: -115px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 16px ;
+  color: #fff;
+  font-family: 'Montserrat-SemiBold' ;
+  font-style: italic;
+  text-align: center;
+}
+.textspacefooter{
+  margin-left: 90px;
+  margin-top: -92px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 15px ;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'Montserrat' ;
+  font-style: italic;
+}
+.imgfooterinstagram{
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(#FFD832 , #F46D03);
+  border-radius: 100px;
+  width: 32px;
+  box-shadow:  0px -5px 14px #ed6300;
+  box-shadow:  10px -5px 14px #f4da68;
+}
+
+
 
 
 
