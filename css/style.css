@@ -799,6 +799,81 @@ body{
   font-family: 'Montserrat-SemiBold' ;
   font-style: italic;
 }
+.footercommunities{
+  margin-left: 792px;
+  margin-top: -92px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 15px ;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'Montserrat' ;
+  font-style: italic;
+}
+.footerspacechat{
+  margin-left: 792px;
+  margin-top: -66px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 15px ;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'Montserrat' ;
+  font-style: italic;
+}
+.footerspaceforum{
+  margin-left: 792px;
+  margin-top: -42px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 15px ;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'Montserrat' ;
+  font-style: italic;
+}
+.footerspacecommunity{
+  margin-left: 792px;
+  margin-top: -18px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 15px ;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'Montserrat' ;
+  font-style: italic;
+}
+.textcontactsfooter{
+  margin-left: 1160px;
+  margin-top: -115px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 16px ;
+  color: #fff;
+  font-family: 'Montserrat-SemiBold' ;
+  font-style: italic;
+  text-align: center;
+}
+.footerspacenomers{
+  margin-left: 1160px;
+  margin-top: -90px;
+  display: inline-block;
+  line-height: 23px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 14px ;
+  color: #fff;
+  font-family: 'Montserrat' ;
+  font-style: italic;
+  text-align: center;
+}
+
+
 
 
 
