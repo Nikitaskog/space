@@ -735,10 +735,72 @@ body{
   z-index: 2;
   background: linear-gradient(#FFD832 , #F46D03);
   border-radius: 100px;
-  width: 32px;
-  box-shadow:  0px -5px 14px #ed6300;
-  box-shadow:  10px -5px 14px #f4da68;
+  width: 22px;
+  box-shadow: 0px 0px 7px #ed6300 ;
+  margin-top: -42px;
+  margin-left: 86px ;
 }
+.helpmainfooter{
+  margin-left: 440px;
+  margin-top: -115px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 16px ;
+  color: #fff;
+  font-family: 'Montserrat-SemiBold' ;
+  font-style: italic;
+  text-align: center;
+}
+.textsupportfooter{
+  margin-left: 438px;
+  margin-top: -92px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 15px ;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'Montserrat' ;
+  font-style: italic;
+}
+.textchawithusfooter{
+  margin-left: 438px;
+  margin-top: -66px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 15px ;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'Montserrat' ;
+  font-style: italic;
+}
+.textproducthelpfooter{
+  margin-left: 438px;
+  margin-top: -42px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 15px ;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'Montserrat' ;
+  font-style: italic;
+}
+.textaboutfooter{
+  margin-left: 800px;
+  margin-top: -115px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+  font-size: 16px ;
+  color: #fff;
+  font-family: 'Montserrat-SemiBold' ;
+  font-style: italic;
+}
+
+
 
 
 
